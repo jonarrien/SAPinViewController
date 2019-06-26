@@ -156,7 +156,7 @@ class SAButtonView: UIView {
         btn.addTarget(self, action: #selector(self.btnTap), for: .touchUpInside)
     }
     
-    func btnTap() {
+    @objc func btnTap() {
         delegate?.buttonTappedWithTag(numberTag)
         UIView.animate(withDuration: 0.17, delay: 0, options: .curveEaseIn, animations: {
             self.backgroundColor = self.buttonBorderColor.withAlphaComponent(0.4)
