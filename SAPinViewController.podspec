@@ -24,7 +24,7 @@ My inspiration to create this library was form [THPinViewController](https://git
   s.author           = { 'Siavash' => 'siavash@siavashalipour.com' }
   s.source           = { :git => 'https://github.com/siavashalipour/SAPinViewController.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'SAPinViewController/Classes/**/*'
   
