@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'SAPinViewController'
   s.version          = '0.2.0'
   s.summary          = 'Simple, easy to use and fully customisable PIN Screen'
+  s.swift_version    = "4.2"
 
 
 
